@@ -9,6 +9,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
+		System.out.println("changes for 2");
 		run.close();
 		
 	}
